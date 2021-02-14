@@ -15,7 +15,7 @@ library(h2o)
 library(xgboost)
 library(ggplot2)
 library(psych)
-data= read.csv('/Users/bhargavi/Desktop/Desktop/omscs/ml2021/assignments/sl/winequality-red.csv', sep = ';')
+data= read.csv('winequality-red.csv', sep = ';')
 head(data)
 anyNA(data)
 names(data)=c('fixed_acidity','volatile_acidity','citric_acidity','residual_sugar',
